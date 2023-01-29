@@ -1,0 +1,84 @@
+<!doctype html>
+<!--Aibiike Omurzakova-->
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>Form Page</title>
+    <link rel="stylesheet" type="text/css" href="./css/Website.css"/>
+    <script type = "text/javascript" src="./javascript/Website.js"></script>
+</head>
+<body onload = "todaysDate()">
+    <div class="navflexcontainer">
+        <a class = "navflexitem" href = "IndexPage.html"> Home </a>
+        <a class = "navflexitem" href = "TablePage.html"> Table </a>
+        <a class = "navflexitem" href = "ImagePage.html"> Images </a>
+        <a class = "navflexitem" href = "FormPage.html"> Form </a>
+        <div class="flexitem">&nbsp;</div>
+        <a class = "navflexitem socialmediaflexitem" href = "https://www.facebook.com/"><img src="./imgs/facebook-logo.jpg" alt = "Facebook logo" height="20" width="20"></a>
+        <a class = "navflexitem socialmediaflexitem" href = "https://twitter.com/"><img src="./imgs/twitter-logo.png" alt = "Twitter logo" height="20" width="20"></a>
+    </div>
+    
+    <div class = "maincontainer">
+        <h1 class = "center"><span class="name center">HIPPOSPHERE</span></h1>
+        <h2 class ="spacebottom center">Horse show 2021-2022</h2>
+        <form action = "SomePage.html">
+            <fieldset>
+                <label class = "space" for="name">Name of the organization:</label>
+                <input type="text" id="name" size="24"/>
+                <p></p>
+                <label class = "space" for="email">Your email:</label>
+                <input type="email" id="email" size="30"/>
+              
+                <p></p>
+                <label class = "space">Type of Participation:</label>
+                <select id="participation">
+                    <option selected disabled>Choose a type of participation</option>
+                    <option value="Stand">Participation with a stand</option>
+                    <option value="Horse">Participation with a horse</option>
+                    <option value="StandHorse">Participation with a stand and a horse</option>
+                </select>
+                <p></p>
+                <label class = "space">City</label>
+                Moscow <input type="radio" name="city" value="300"/>
+                Krasnodar <input type="radio" name="city" value="400"/> 
+                Novosibirsk <input type="radio" name="city" value="500"/>
+                <p></p>
+
+                <label class = "space">Participation Field</label>
+                Horses<input type="radio" name="participationfield" value="300"/> <!-- what does value mean? -->
+                Ponies<input type="radio" name="participationfield" value="400"/>
+                <p></p>
+
+                <label class = "space">Your Arrival Date</label>
+                <input type = "date" id = "arrivalDate"/>
+                <p></p>
+                <label class = "space">Your Arrival Time</label>
+                <input type = "time" id = "arrivalTime"/>
+                <p></p>
+
+                <label class = "space" for="area">Tell us more about your organization:</label>
+                <textarea id="textarea" cols="30" rows="6" maxlength="200">Place text here...</textarea>
+                <p></p>
+
+                <label>I agree to the processing of my data</label>
+                <input type="checkbox" id="agree" checked/>
+                <p></p>
+                <p></p>
+              
+                <label>I agree to receive news</label>
+                <input type="checkbox" id="news" checked/>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <div class = "footercontainer">
+        <footer>
+            <p id = "showDate"></p>
+            Are you an organization who has a horse and want to take part in the exhibition? Then please email us or fill out the form! 
+            <p></p>
+            Aibiike Omurzakova | <a href = "mailto:aibiike.omurzakova@student.sl.on.ca" title="aibiike.omurzakova@student.sl.on.ca"> aibiike.omurzakova@student.sl.on.ca </a>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,205 @@
+/* Aibiike Omurzakova */
+
+
+.navflexcontainer 
+{
+    margin-bottom: 2em;
+    display: flex;
+}
+
+
+.navflexcontainer>a
+{
+    background-color:palegoldenrod;
+    /*padding: 0.5rem 4em;*/
+    padding: 0.5em;
+    font-size: 1em;
+    text-shadow: 0.2em 0.2em 0 rgba(0, 0, 0, 0.1);
+    text-align: right;
+ 
+}
+
+.socialmediaflexitem
+{
+    flex: 0.1;
+}
+
+.flexitem 
+{
+    flex: 3;
+}
+
+.item
+{
+    margin-right: auto;
+}
+
+
+.maincontainer
+{
+    background-color: moccasin;
+    padding: 0.9em;
+    margin-top: 0.5em;
+    min-width: 20em;
+}
+
+.footercontainer
+{
+    background-color:antiquewhite;
+    color:sienna;
+    margin-top: 2.5em;
+    padding: 1em;
+    text-align: center;
+}
+
+.imagespagemainflexcontainer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagespagemainflexitem 
+{
+    background-color:palegoldenrod;
+    margin-right: 0.3em;
+    margin-bottom: 0.5em;
+    max-width: 22em;
+    padding: 0.7em;
+    border-radius: 0.5em;
+}
+
+textarea 
+{
+    vertical-align: middle;
+}
+
+
+input 
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+}
+
+
+
+textarea:focus
+{
+    background-color: rgb(248, 238, 220);
+}
+
+
+.space
+{
+    margin-right: 0.5em;
+}
+
+label 
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"]
+{
+    color:darkgreen;
+}
+
+fieldset
+{
+    background-color:rgb(218, 228, 171);
+    width: 70%;
+    margin: 0 auto;
+}
+
+.spacebottom 
+{
+    margin-bottom: 1em;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.spacetop
+{
+    margin-top: 2em;
+}
+
+.name
+{
+    font-style: italic;
+    color: rgb(151, 97, 61);
+}
+
+body 
+{
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+    font-size: 1em;
+    color:#374E55;
+    background-color: #FAF4DF;
+}
+
+h1
+{
+    font-size: 1.5em;
+}
+
+h2
+{
+    color: slategray;
+    font-size: 1.3em;
+}
+
+p
+{
+    font-size: 1em;
+}
+
+ol
+{
+    list-style-type:upper-roman;
+}
+
+ul
+{
+    list-style:inside;
+}
+
+table
+{
+    color:lightslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border-color:#c27b54;
+    border-style: dashed;
+    border-width: medium;
+    background-color: #FAF0E6;
+}
+
+th
+{
+    color: slategrey;
+}
+
+a:link
+{
+    color: #735632;
+
+}
+
+a:visited
+{
+    color: #A28CCE;
+}
+
+a:hover
+{
+    opacity: 0.5;
+}
+
+
